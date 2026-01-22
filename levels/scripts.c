@@ -20,6 +20,7 @@
 #include "actors/group12.h"
 #include "actors/group13.h"
 #include "actors/group14.h"
+#include "actors/group15.h"
 #include "actors/group17.h"
 
 #include "levels/intro/header.h"
@@ -189,6 +190,11 @@ const LevelScript script_func_global_11[] = {
     RETURN(),
 };
 
+const LevelScript script_func_global_12[] = {
+    LOAD_MODEL_FROM_GEO(MODEL_MIPS,                    RCP_rabbitHierarchy),
+    RETURN(),
+};
+
 const LevelScript script_func_global_13[] = {
     LOAD_MODEL_FROM_GEO(MODEL_BOWSER,                  bowser_geo),
     LOAD_MODEL_FROM_GEO(MODEL_BOWSER_BOMB_CHILD_OBJ,   bowser_bomb_geo),
@@ -213,6 +219,8 @@ const LevelScript script_func_global_15[] = {
     LOAD_MODEL_FROM_GEO(MODEL_KOOPA_WITH_SHELL,        RCP_HmsEnemynokonoko),
     LOAD_MODEL_FROM_GEO(MODEL_PIRANHA_PLANT,           RCP_HmsEnemypakun_angry),
     LOAD_MODEL_FROM_GEO(MODEL_WHOMP,                   RCP_HmsEnemywallman),
+    LOAD_MODEL_FROM_GEO(MODEL_CHAIN_CHOMP,             RCP_HmsEnemywanwan),
+    LOAD_MODEL_FROM_GEO(MODEL_KOOPA_FLAG,              RCP_Hmsflag),
     RETURN(),
 };
 

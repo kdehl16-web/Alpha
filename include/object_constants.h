@@ -678,6 +678,45 @@
     #define GOOMBA_TRIPLET_SPAWNER_BP_EXTRA_GOOMBAS_MASK (0x000000FF & ~GOOMBA_BP_SIZE_MASK)
     #define GOOMBA_TRIPLET_SPAWNER_BP_EXTRA_GOOMBAS(num) ((num) << 2)
 
+/* Chain Chomp */
+    /* oAction */
+    #define CHAIN_CHOMP_ACT_UNINITIALIZED 0
+    #define CHAIN_CHOMP_ACT_MOVE          1
+    #define CHAIN_CHOMP_ACT_UNLOAD_CHAIN  2
+
+    /* oSubAction */
+    #define CHAIN_CHOMP_SUB_ACT_TURN  0
+    #define CHAIN_CHOMP_SUB_ACT_LUNGE 1
+
+    /* oChainChompReleaseStatus */
+    #define CHAIN_CHOMP_NOT_RELEASED              0
+    #define CHAIN_CHOMP_RELEASED_TRIGGER_CUTSCENE 1
+    #define CHAIN_CHOMP_RELEASED_LUNGE_AROUND     2
+    #define CHAIN_CHOMP_RELEASED_BREAK_GATE       3
+    #define CHAIN_CHOMP_RELEASED_JUMP_AWAY        4
+    #define CHAIN_CHOMP_RELEASED_END_CUTSCENE     5
+
+/* Chain Chomp Chain Part */
+    /* oBhvParams2ndByte */
+    #define CHAIN_CHOMP_CHAIN_PART_BP_PIVOT 0
+
+/* Wooden Post */
+    /* oBhvParams */
+    #define WOODEN_POST_BP_NO_COINS_MASK 0x0000FF00
+
+/* Hana */
+/* oAction */
+#define HANA_ACT_WALK           0
+#define HANA_ACT_ATTACKED_MARIO 1
+#define HANA_ACT_JUMP           2
+
+/* oBhvParams2ndByte */
+#define HANA_SIZE_REGULAR                 0
+#define HANA_SIZE_HUGE                    1
+#define HANA_SIZE_TINY                    2
+#define HANA_BP_SIZE_MASK                 (HANA_SIZE_REGULAR | HANA_SIZE_HUGE | HANA_SIZE_TINY)
+#define HANA_BP_TRIPLET_RESPAWN_FLAG_MASK (0x000000FF & ~HANA_BP_SIZE_MASK)
+
 /* Wooden Post */
     /* oBhvParams */
     #define WOODEN_POST_BP_NO_COINS_MASK 0x0000FF00

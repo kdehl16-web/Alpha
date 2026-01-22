@@ -400,11 +400,12 @@
 #define MODEL_WHOMP                       0x67        // whomp_geo
 #define MODEL_KOOPA_WITH_SHELL            0x68        // koopa_with_shell_geo
 #define MODEL_METALLIC_BALL               0x65        // metallic_ball_geo
-//#define MODEL_KOOPA_FLAG                  0x6A        // koopa_flag_geo
-//#define MODEL_WOODEN_POST                 0x6B        // wooden_post_geo
+#define MODEL_CHAIN_CHOMP                 0x66        // chain_chomp
+#define MODEL_KOOPA_FLAG                  0x6A        // koopa_flag_geo
+#define MODEL_WOODEN_POST                 0x6B        // wooden_post_geo
 
 // group 15
-//#define MODEL_MIPS                        0x64        // mips_geo
+#define MODEL_MIPS                        0x64        // mips_geo
 //#define MODEL_BOO_CASTLE                  0x65        // boo_castle_geo
 //#define MODEL_LAKITU                      0x66        // lakitu_geo
 
@@ -501,6 +502,7 @@
 //#define MODEL_SEAWEED                     0xC1        // seaweed_geo
 //#define MODEL_AMP                         0xC2        // dAmpGeo
 //#define MODEL_BOBOMB_BUDDY                0xC3        // bobomb_buddy_geo
+#define MODEL_HANA                0xC4        // wiggler
 // find me
 // find me
 // find me
