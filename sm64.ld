@@ -267,7 +267,9 @@ SECTIONS
         BUILD_DIR/libultra.a:__osGetCause.o(.text);
         BUILD_DIR/libultra.a:__osAtomicDec.o(.text);
         BUILD_DIR/libultra.a:guLookAtRef.o(.text); /* Fast3DEX2 only */
+        BUILD_DIR/libultra.a:__osGetCurrFaultedThread.o(.text);
         BUILD_DIR/libultra.a:osSyncPrintf.o(.text);
+        BUILD_DIR/libultra.a:osStopTimer.o(.text);
         BUILD_DIR/lib/rsp.o(.text);
 
         /* data */
@@ -692,11 +694,13 @@ SECTIONS
     SZP_SEG(spooky, 0x09000000)
     SZP_SEG(generic, 0x09000000)
     SZP_SEG(water, 0x09000000)
+    SZP_SEG(sky, 0x09000000)
     SZP_SEG(slide, 0x09000000)
     SZP_SEG(outside, 0x09000000)
     SZP_SEG(inside, 0x09000000)
     SZP_SEG(effect, 0x0B000000)
     SZP_SEG(machine, 0x09000000)
+    SZP_SEG(mountain, 0x09000000)
     SZP_SEG(grass, 0x09000000)
 
 #define STUB_LEVEL(_0, _1, _2, _3, _4, _5, _6, _7, _8)
