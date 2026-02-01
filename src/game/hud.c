@@ -251,7 +251,7 @@ void render_hud_power_meter(void) {
     sPowerMeterVisibleTimer++;
 }
 
-#define HUD_TOP_Y 210
+#define HUD_TOP_Y 215
 
 /**
  * Renders the amount of lives Mario has.
