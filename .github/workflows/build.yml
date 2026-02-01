@@ -18,6 +18,14 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Cache tools
+      uses: actions/cache@v4
+      with:
+        path: tools
+        key: ${{ runner.os }}-tools-${{ hashFiles('tools/**') }}
+        restore-keys: |
+          ${{ runner.os }}-tools-
+
     - name: Retrieve required files
       run: curl -L "https://drive.google.com/uc?export=download&id=1q4wA2GaeALgVH4e-lgyos0MA6nWNRWRk" > baserom.jp.z64
 
