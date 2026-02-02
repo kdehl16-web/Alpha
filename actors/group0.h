@@ -23,6 +23,7 @@ extern const Gfx gfx_burn_smoke_v8[];
 
 // mario
 extern Hierarchy RCP_MarioHierarchy[];
+extern Hierarchy  RCP_FarMario[];
 
 // sparkle
 extern const GeoLayout sparkles_geo[];
