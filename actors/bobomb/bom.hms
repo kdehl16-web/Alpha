@@ -17,7 +17,7 @@ Hierarchy RCP_HmsEnemybom_basedata[] = {
  hmsShadow(70, 200, 1)
  hmsBegin()
 
- hmsScale(0.25f)
+ hmsScale(0.50f)
     hmsBegin()
  
 #if softspriteON
