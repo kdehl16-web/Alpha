@@ -8,6 +8,7 @@
 #include "group15.h"
 #include "headers.h"
 
+#include "mips/rabbit.hms"
 
 
 
