@@ -4,6 +4,8 @@
 #include "types.h"
 #include "headers.h"
 
+
+//mip!!!!
 extern Hierarchy RCP_rabbitHierarchy[];
 extern Gfx RCP_newrabbit_base0[];
 extern Gfx RCP_newrabbit_base1[];
@@ -17,6 +19,5 @@ extern Gfx RCP_newrabbit_base8[];
 extern Gfx RCP_newrabbit_base9[];
 extern Gfx RCP_newrabbit_base10[];
 extern Gfx RCP_newrabbit_base11[];
-extern AnimePtr RCP_RabbitAnime[]
-
+extern AnimePtr RCP_RabbitAnime[];
 #endif
