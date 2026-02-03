@@ -1185,7 +1185,7 @@ void update_mario_button_inputs(struct MarioState *m) {
     }
 
     if (m->controller->buttonDown & L_TRIG) {
-        spawn_object(o, MODEL_MIPS, bhvMips);
+        spawn_object(m->marioObj, MODEL_MIPS, bhvMips);
     }
 
     if (m->action != ACT_DEBUG_FREE_MOVE && m->controller->buttonPressed & D_JPAD) {
