@@ -21,8 +21,6 @@
 
 #include "sparkle/model.inc.c"
 
-#include "mips/rabbit.sou
-
 #include "water_splash/model.inc.c"
 
 #include "white_particle_small/model.inc.c"
