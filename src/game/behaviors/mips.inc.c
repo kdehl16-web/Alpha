@@ -11,7 +11,7 @@ void bhv_mips_init(void) {
         o->oBhvParams2ndByte = MIPS_BP_15_STARS;
         o->oMipsForwardVelocity = 40.0f;
 
-    o->oGravity = 0.5f; //2.5f
+    o->oGravity = 1.5f; //2.5f
     o->oFriction = 0.99f;
     o->oBuoyancy = 1.4f;
 
