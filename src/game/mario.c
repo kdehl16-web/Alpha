@@ -1187,8 +1187,8 @@ if (m->squishTimer == 0) {
     if (m->controller->buttonDown & L_TRIG) {
         spawn_object(m->marioObj, MODEL_MIPS, bhvMips);
     }
+    #endif
     }
-#endif
     if (m->action != ACT_DEBUG_FREE_MOVE && m->controller->buttonPressed & D_JPAD) {
         set_mario_action(m, ACT_DEBUG_FREE_MOVE, 0);
     }
