@@ -1184,7 +1184,6 @@ void update_mario_button_inputs(struct MarioState *m) {
         gShowDebugText = FALSE;
     }
 
-    }
     if (m->action != ACT_DEBUG_FREE_MOVE && m->controller->buttonPressed & D_JPAD) {
         set_mario_action(m, ACT_DEBUG_FREE_MOVE, 0);
     }
