@@ -68,7 +68,6 @@ const LevelScript level_main_scripts_entry[] = {
     LOAD_MODEL_FROM_GEO(MODEL_WAVE_TRAIL,              wave_trail_geo),
     LOAD_MODEL_FROM_GEO(MODEL_YELLOW_COIN,             RCP_HmsItemCoin),
     LOAD_MODEL_FROM_GEO(MODEL_STAR,                    RCP_HmsItemStar),
-//    LOAD_MODEL_FROM_GEO(MODEL_MIPS,                    RCP_rabbitHierarchy),
     LOAD_MODEL_FROM_GEO(MODEL_STAR_DUST,               RCP_HmsItemStarDust),
     LOAD_MODEL_FROM_GEO(MODEL_TRANSPARENT_STAR,        RCP_HmsDotstar),
     LOAD_MODEL_FROM_DL (MODEL_WHITE_PARTICLE_SMALL,    white_particle_small_dl, LAYER_ALPHA),
@@ -228,7 +227,6 @@ const LevelScript script_func_global_15[] = {
     LOAD_MODEL_FROM_GEO(MODEL_WHOMP,                   RCP_HmsEnemywallman),
     LOAD_MODEL_FROM_GEO(MODEL_CHAIN_CHOMP,             RCP_HmsEnemywanwan),
     LOAD_MODEL_FROM_GEO(MODEL_KOOPA_FLAG,              RCP_Hmsflag),
-    LOAD_MODEL_FROM_GEO(MODEL_MIPS,                    RCP_rabbitHierarchy),
     LOAD_MODEL_FROM_GEO(MODEL_METALLIC_BALL,           metallic_ball_geo),
     RETURN(),
 };
