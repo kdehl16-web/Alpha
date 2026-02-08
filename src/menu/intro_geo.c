@@ -116,7 +116,7 @@ Gfx *geo_intro_regular_backdrop(s32 state, struct GraphNode *node, UNUSED void *
     Gfx *dlIter = NULL;
     s32 i;
 
-    if (state == 1) { // draw
+/*    if (state == 1) { // draw
         dl = alloc_display_list(16 * sizeof(*dl));
         dlIter = dl;
         graphNode->node.flags = (graphNode->node.flags & 0xFF) | (LAYER_OPAQUE << 8);
@@ -128,5 +128,5 @@ Gfx *geo_intro_regular_backdrop(s32 state, struct GraphNode *node, UNUSED void *
         gSPDisplayList(dlIter++, &title_screen_bg_dl_0A000190);
         gSPEndDisplayList(dlIter);
     }
-    return dl;
+*/    return dl;
 }
