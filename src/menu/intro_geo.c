@@ -127,7 +127,7 @@ Gfx *geo_intro_regular_backdrop(s32 state, struct GraphNode *node, UNUSED void *
         for (i = 0; i < 12; i++) {
             gSPDisplayList(dlIter++, intro_backdrop_one_image(i));
         }
-//        gSPDisplayList(dlIter++, &title_screen_bg_dl_0A000190);
+        gSPDisplayList(dlIter++, &title_screen_bg_dl_0A000190);
         gSPEndDisplayList(dlIter);
     }
     return dl;
