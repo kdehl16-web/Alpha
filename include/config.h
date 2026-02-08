@@ -25,4 +25,6 @@
 // Debug Build
 #define DEBUG
 
+// Ultra Mario BG Build
+//#define ULTRABG
 #endif // CONFIG_H
