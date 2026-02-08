@@ -266,8 +266,8 @@ void render_hud_mario_lives(void) {
  * Renders the amount of coins collected.
  */
 void render_hud_coins(void) {
-    print_text(170, HUD_TOP_Y, "+"); // 'Coin' glyph
-    print_text(186, HUD_TOP_Y, "*"); // 'X' glyph
+    print_text(30, HUD_TOP_Y - 17, "+"); // 'Coin' glyph
+    print_text(46, HUD_TOP_Y - 17, "*"); // 'X' glyph
     print_text_fmt_int(198, HUD_TOP_Y, "%02d", gHudDisplay.coins);
 }
 
@@ -276,8 +276,8 @@ void render_hud_coins(void) {
  * Disables "X" glyph when Mario has 100 stars or more.
  */
 void render_hud_stars(void) {
-    print_text(30, HUD_TOP_Y - 17, "-"); // 'Star' glyph
-    print_text(46, HUD_TOP_Y - 17, "*"); // 'X' glyph
+    print_text(170, HUD_TOP_Y, "-"); // 'Star' glyph
+    print_text(186, HUD_TOP_Y, "*"); // 'X' glyph
     print_text_fmt_int(58, HUD_TOP_Y - 17, "%02d", gHudDisplay.stars);
 }
 
