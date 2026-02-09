@@ -1,9 +1,9 @@
-# showfloor
+# Project Alpha (Temporary)
 ![showfloorlogo](https://github.com/user-attachments/assets/255078c5-d31c-4284-a720-f1f2ddcefd4f)
 
 ## Introduction
 
-**showfloor** is a recreation of the Shoshinkai 1995 demo of Super Mario 64, based on [The Preservation Project](https://github.com/Sunlitspace542/tpp-mirror) (TPP). It aims to continue TPP's legacy with greater accuracy to the source material.
+**Project Alpha (Temp)** is a recreation of hoex/fan-made alpha build version of Super Mario 64, based on [backstage by 96flashbacks](https://github.com/96flashbacks/backstage).
 
 ## Installation
 
@@ -35,17 +35,25 @@ make GRUCODE=f3d_20E
 
 ## Q&A
 
-**Can I use this as a base for another project?**
-- Yes, but not recommended, as many vanilla assets were removed or edited, so you'd need to re-add them.
+**uhh what is this?**
 
-**Can I contribute to this repository?**
-- Contributions are welcome. Please open an issue to report problems or suggest improvements, and feel free to submit pull requests.
+IDK.
 
-For more questions, join our [Discord server](https://discord.gg/ynabeAS4eD).
+**Can I Contribute to this?**
+
+Yes!
 
 ## Credits
 
-### '96flashbacks' Team
+#### Project Alpha (Temp) Contributors
+
+#### Main Programming
+- timmy6259
+
+#### Assets
+- Rederio (Texture/Idea)
+
+### Original '96flashbacks' Team
 
 #### Main Programming
 - stalechilibeans
@@ -75,7 +83,7 @@ For more questions, join our [Discord server](https://discord.gg/ynabeAS4eD).
 - duskewl/jadu
 - `K-Dubs΄
   
-### '96flashbacks' Server Contributors
+### Original '96flashbacks' Server Contributors
 
 #### Additional Programming
 - Phil564
@@ -152,3 +160,7 @@ For more questions, join our [Discord server](https://discord.gg/ynabeAS4eD).
 - [Retro Aesthetics’ Mario Series Matches](https://retroaesthetics.net/mario-series-matches/)
 - [TCRF’s Page](https://tcrf.net/Prerelease:Super_Mario_64_(Nintendo_64)/Shoshinkai_1995_Demo)
 - [Original TPP Source Code](https://github.com/Sunlitspace542/tpp-mirror)
+- [Original Backstage Source Code](https://github.com/96flashbacks/backstage)
+- [SM64 CLASSIFIED (tetrabunz): Genesis](https://youtu.be/SMgo_vG2mYI)
+
+Huge thanks to everyone in this Lists.
