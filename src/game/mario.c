@@ -1191,7 +1191,7 @@ void update_mario_button_inputs(struct MarioState *m) {
     }
 #endif
     if (m->controller->buttonPressed & A_BUTTON) {
-        m->TTinput |= INPUT_A_PRESSED;
+        m->input |= INPUT_A_PRESSED;
     }
 
     if (m->controller->buttonDown & A_BUTTON) {
