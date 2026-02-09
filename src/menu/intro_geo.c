@@ -123,7 +123,7 @@ Gfx *geo_intro_regular_backdrop(s32 state, struct GraphNode *node, UNUSED void *
         dlIter = dl;
         graphNode->node.flags = (graphNode->node.flags & 0xFF) | (LAYER_OPAQUE << 8);
         gSPDisplayList(dlIter++, &dl_proj_mtx_fullscreen);
-		#if ULTRABG        
+		#ifdef ULTRABG        
         gSPDisplayList(dlIter++, &title_screen_bg_dl_0A000100);
 		#endif
         for (i = 0; i < 12; i++) {
