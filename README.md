@@ -3,7 +3,7 @@
 
 ## Introduction
 
-**Project Alpha (Temp)** is a recreation of hoex/fan-made alpha build version of Super Mario 64, based on [backstage by 96flashbacks](https://github.com/96flashbacks/backstage).
+**Project Alpha (Temp)** is a recreation of hoax/fan-made alpha build version of Super Mario 64, based on [backstage by 96flashbacks](https://github.com/96flashbacks/backstage).
 
 ## Installation
 
