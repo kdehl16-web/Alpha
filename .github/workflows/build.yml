@@ -80,5 +80,6 @@ jobs:
         files: |
           ${{github.event.repository.name}}-${{github.ref_name}}.bps
           ${{github.event.repository.name}}-${{github.ref_name}}-hle.bps
+          sm64.jp.map
         clear_attachments: false
         prerelease: true
